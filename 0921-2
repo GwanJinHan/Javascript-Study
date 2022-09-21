@@ -1,0 +1,9 @@
+function solution(arr) {
+    var total = 0;
+    for (var i =0; i < arr.length; i++) {
+        total += arr[i]
+    }
+    var answer = 0;
+    answer=total/arr.length;
+    return answer;
+}
